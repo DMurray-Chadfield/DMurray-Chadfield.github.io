@@ -1,5 +1,8 @@
 html {
-    font: Helvetica;
-    color: white;
     background-color: black;
+}
+
+body {
+    color: white;
+    font: Helvetica;
 }
