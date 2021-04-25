@@ -1,3 +1,17 @@
 body {
     font-family: Helvetica;
+    background-color: midnightblue;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+a {
+    color: darkorange;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    background-color: darkslateblue;
 }
