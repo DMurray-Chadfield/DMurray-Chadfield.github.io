@@ -7,7 +7,17 @@ body {
 }
 
 a {
-    color: darkorange;
+    color: white;
+}
+
+.card a {
+    position: relative;
+    margin: auto;
+    display: block;
+    text-align: center;
+    visibility: hidden;
+    top: 115px;
+    font-weight: bold;
 }
 
 h1 {
@@ -30,16 +40,8 @@ h1 {
     width: 20%;
     margin: 10px 0;
     height: 250px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-size: cover;
     background-position: center top;
-}
-
-.card a {
-    text-align: center;
-    visibility: hidden;
 }
 
 #dasmoto {
@@ -64,4 +66,12 @@ h1 {
 
 #club {
     background-image: url("./assets/club.png");
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+    position: relative;
 }
