@@ -30,4 +30,38 @@ h1 {
     width: 20%;
     margin: 10px 0;
     height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center top;
+}
+
+.card a {
+    text-align: center;
+    visibility: hidden;
+}
+
+#dasmoto {
+    background-image: url("./assets/dasmoto.png");
+}
+
+#excursion {
+    background-image: url("./assets/excursion.png");
+}
+
+#web {
+    background-image: url("./assets/web.png");
+}
+
+#tea {
+    background-image: url("./assets/tea.png");
+}
+
+#company {
+    background-image: url("./assets/company.png");
+}
+
+#club {
+    background-image: url("./assets/club.png");
 }
