@@ -1,6 +1,6 @@
 body {
     font-family: Helvetica;
-    background-color: midnightblue;
+    background-color: #321cb0;
     color: white;
     font-weight: bold;
     font-size: 18px;
@@ -78,4 +78,8 @@ h1 {
     height: 100%;
     z-index: -10;
     position: relative;
+}
+
+section {
+    border-bottom: 1px dashed white;
 }
